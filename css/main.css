@@ -75,6 +75,10 @@ hr.star-primary:after {
 	height: 250px;
 }
 
+#resume-icon {
+	padding-right: 5px;
+}
+
 #portfolio .portfolio-item .portfolio-link .caption {
 	background: #ffb300;
 }
@@ -87,6 +91,10 @@ hr.star-primary:after {
 	color: #ffffff;
 }
 
+p {
+	margin-bottom: 0px;
+}
+
 .p-with-link a {
 color: #81d4fa;
 }
@@ -95,9 +103,30 @@ color: #81d4fa;
 	color: #ffb300;
 }
 
+ul.custom-ul {
+	list-style-type: none;
+	margin-top: 5px;
+}
+
+ul.custom-ul li {
+	padding-left: 15px;
+	font-size: 15px;
+	display: block;
+	position: relative;
+}
+
+.custom-bullet {
+	margin-left: -10px;
+	font-size: 16px; 
+/*	padding-right:10px; 
+*/	font-weight: 900;
+	position: absolute;
+	line-height: 1.5;
+}
+
 .btn-success {
-	background-color: #01579b;
-	border-color: #01579b;
+	background-color: #2A2A2A;
+	border-color: #2A2A2A;
 }
 
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success {
