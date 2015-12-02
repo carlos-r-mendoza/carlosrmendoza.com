@@ -267,3 +267,11 @@ body {
 	.navbar-fixed-top .navbar-brand {
 	}
 }
+
+.navbar-default .navbar-toggle {
+	border-color: #2A2A2A;
+}
+
+.navbar-toggle {
+	background-color: #2A2A2A;
+}
