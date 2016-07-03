@@ -275,3 +275,11 @@ body {
 .navbar-toggle {
 	background-color: #2A2A2A;
 }
+
+#bg-gif {
+  background-image: url("../img/backgrounds/background-work-station.gif");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  opacity: 0.9;
+}
