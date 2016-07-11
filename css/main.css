@@ -418,3 +418,51 @@ header {
   background-size: 100%;
   /*opacity: 0.9;*/
 }
+
+/*  Modals */
+.item-details li {
+  font-weight: 600;
+}
+
+.img-modal {
+  max-width: 75%;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+  opacity: .9;
+}
+
+
+.portfolio-item img {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.portfolio-item:hover {
+  -webkit-transform:scale(1.02); /* Safari and Chrome */
+  -moz-transform:scale(1.02); /* Firefox */
+  -ms-transform:scale(1.02); /* IE 9 */
+  -o-transform:scale(1.02); /* Opera */
+    transform:scale(1.02);
+}
+
+#portfolio .portfolio-item .portfolio-link .caption .caption-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: white;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content i {
+  margin-top: -12px;
+}
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h3,
+#portfolio .portfolio-item .portfolio-link .caption .caption-content h4 {
+  margin: 0;
+}
